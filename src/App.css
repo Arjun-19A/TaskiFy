@@ -1,0 +1,42 @@
+.todoContainer {
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+  margin: 20px 12px;
+  border-radius: 12px;
+  background-color: rgb(237 233 254);
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49 46 129);
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 8px 0;
+}
+@media (min-width: 768px) {
+  .todoContainer {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+.heading {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.separate {
+  background-color: black;
+  width: 95%;
+  height: 1.3px;
+  opacity: 0.2;
+  margin: 1.5rem 0;
+}
+.fin-show {
+  display: flex;
+  gap: 5px;
+}
