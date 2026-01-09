@@ -13,7 +13,7 @@ const TodoItem = ({ todos, handleDelTodo, handleCheckbox, showFinished }) => {
           return (
             (showFinished || !item.isCompleted) && (
               <div className={`row ${style["list-row"]}`} key={item.id}>
-                <div className={`col-6 ${style["name-display"]}`}>
+                <div className={`col-5 ${style["name-display"]}`}>
                   <input
                     type="checkbox"
                     checked={item.isCompleted}
@@ -23,8 +23,8 @@ const TodoItem = ({ todos, handleDelTodo, handleCheckbox, showFinished }) => {
                     {item.name}
                   </div>
                 </div>
-                <div className="col-4">{item.dueDate}</div>
-                <div className="col-2">
+                <div className="col-3">{item.dueDate}</div>
+                <div className={`col-2 ${style["del-btn-container"]}`}>
                   <button
                     type="button"
                     className={`btn btn-danger ${style["del-btn"]}`}

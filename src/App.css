@@ -1,8 +1,8 @@
 .todoContainer {
-  align-items: center;
+  text-align: center;
   min-height: 80vh;
-  padding: 20px;
-  margin: 20px 12px;
+  padding: 10px;
+  margin: 20px 5px;
   border-radius: 12px;
   background-color: rgb(237 233 254);
 }
@@ -20,6 +20,7 @@
   .todoContainer {
     width: 50%;
     margin: 20px auto;
+    padding: 20px;
   }
 }
 .heading {
@@ -31,12 +32,12 @@
 }
 .separate {
   background-color: black;
-  width: 95%;
   height: 1.3px;
-  opacity: 0.2;
-  margin: 1.5rem 0;
+  opacity: 0.25;
+  margin: 1.2rem 0.5rem;
 }
 .fin-show {
   display: flex;
   gap: 5px;
+  margin: 0 0.5rem;
 }

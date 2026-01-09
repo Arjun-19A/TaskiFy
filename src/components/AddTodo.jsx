@@ -22,7 +22,7 @@ const AddTodo = ({ handleAddTodo }) => {
     <div className={`addTodo ${style["addTodo"]}`}>
       <h2>Add Todos</h2>
       <div className={`row ${style["kg-row"]}`}>
-        <div className="col-6">
+        <div className={`col-6 ${style["input-name"]}`}>
           <input
             type="text"
             placeholder="Enter Todo here"
@@ -38,7 +38,7 @@ const AddTodo = ({ handleAddTodo }) => {
             onClick={(e) => e.target.showPicker?.()}
           />
         </div>
-        <div className="col-2">
+        <div className={`col-2 ${style["add-btn-container"]}`}>
           <button type="button" className={`btn btn-info ${style["add-btn"]}`} onClick={handleAdd}>
             Add
           </button>

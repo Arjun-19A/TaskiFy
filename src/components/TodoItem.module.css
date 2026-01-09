@@ -1,3 +1,6 @@
+.todosList{
+  margin: 0 0.5rem;
+}
 .todosList h2 {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -7,7 +10,8 @@
 .list-row {
   text-align: left;
   align-items: center;
-  margin: 10px 0;
+  justify-content: space-between;
+  margin: 10px 0px;
 }
 .del-btn {
   width: fit-content;
@@ -20,7 +24,11 @@
 .name-display {
   display: flex;
   gap: 10px;
+  padding: 0;
 }
 .completed {
   text-decoration: line-through;
+}
+.del-btn-container{
+  text-align: center;
 }
