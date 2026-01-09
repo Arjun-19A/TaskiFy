@@ -23,7 +23,7 @@ const TodoItem = ({ todos, handleDelTodo, handleCheckbox, showFinished }) => {
                     {item.name}
                   </div>
                 </div>
-                <div className="col-3">{item.dueDate}</div>
+                <div className={`col-4 ${style["date-display"]}`}>{item.dueDate}</div>
                 <div className={`col-2 ${style["del-btn-container"]}`}>
                   <button
                     type="button"

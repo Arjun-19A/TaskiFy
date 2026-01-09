@@ -13,6 +13,11 @@
   justify-content: space-between;
   margin: 10px 0px;
 }
+@media (min-width: 768px) {
+  .list-row {
+    margin: 10px 10px;
+  }
+}
 .del-btn {
   width: fit-content;
 }
@@ -31,4 +36,13 @@
 }
 .del-btn-container{
   text-align: center;
+}
+.date-display{
+  display: flex;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .date-display{
+    padding: 0 ;
+  }
 }
