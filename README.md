@@ -11,7 +11,6 @@ It helps users organize tasks efficiently, track completion status, and manage d
 * ✅ Mark tasks as completed
 * 🗑️ Delete todos
 * 👀 Show / hide completed tasks
-* 📅 Native date picker support
 * 🎨 Clean UI using Bootstrap & CSS Modules
 
 ---
@@ -26,32 +25,18 @@ It helps users organize tasks efficiently, track completion status, and manage d
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](screenshots/home-page.png)
-
-### Add Todo
-![Add Todo](screenshots/add-todo.png)
-
-### Completed Todo
-![Completed Todo](screenshots/completed-todo.png)
-
-
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/your-username/TaskiFy.git
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd todo-list
+   cd TaskiFy
    ```
 
 3. Install dependencies:
@@ -74,22 +59,6 @@ It helps users organize tasks efficiently, track completion status, and manage d
 
 ---
 
-## 📂 Project Structure
-
-```
-src/
-├── components/
-│   ├── AddTodo.jsx
-│   ├── TodoItem.jsx
-│   ├── ShowFinished.jsx
-│   ├── Navbar.jsx
-│   └── AppName.jsx
-├── App.jsx
-├── App.css
-```
-
----
-
 ## 💡 Learning Outcomes
 
 This project helped me strengthen my understanding of:
@@ -106,7 +75,6 @@ This project helped me strengthen my understanding of:
 ## 🔮 Future Improvements
 
 * ✏️ Edit todo feature
-* 💾 LocalStorage persistence
 * 🌙 Dark mode
 * 📱 Improved mobile responsiveness
 
